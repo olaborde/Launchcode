@@ -24,6 +24,8 @@ print("After tax, your total is:", total_price)
 # It is possible to name the days 0 through 6, where day 0 is Sunday and day 6 is Saturday. If you go on a wonderful holiday leaving on day 3 (a Wednesday) and you return home after 10 nights, you arrive home on day 6 (a Saturday).
 
 
+print(" Please enter a day number from 0 through 6, where ) is Sunday the first day of the week")
+
 day_number = int(input(" what day number your vacation starts"))
 
 holiday_length = int(input(" How long you will be on vaction for?"))
