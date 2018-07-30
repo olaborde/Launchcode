@@ -1,4 +1,4 @@
-# a function allow you to reuse a block of code anytime anywhere in your  program.abs
+# a function allow you to reuse a block of code anytime anywhere in your  program, keep code simpler and shorter, makes it easy to read, ora=ganize code in digestible pieces, prevent repeat long block of code
 
 # def name():
 #   statement
@@ -38,7 +38,7 @@ print( calc(74))
 
 
 def say_appointment(name, app_time):
-  greet = "Hello "+ name + " my name is Osse, our appointment is "+ str(app_time)+ " o'clock"
+  greet = "Hello "+ name + ", my name is Osse, our appointment is at "+ str(app_time)+ " o'clock"
 
   return greet
 
