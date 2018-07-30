@@ -35,3 +35,12 @@ def calc(n):
   return the_calc
 
 print( calc(74))  
+
+
+def say_appointment(name, app_time):
+  greet = "Hello "+ name + " my name is Osse, our appointment is "+ str(app_time)+ " o'clock"
+
+  return greet
+
+
+print(say_appointment("joe", 7))
