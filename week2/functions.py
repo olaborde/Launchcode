@@ -9,6 +9,9 @@
 
 #A parameter is the data you will be using in your block of code which will then give a specific result
 
+# refactor repeating code with functions, DO NOT reapt you code
+# a function is just fuctionality
+
 
 def square(n):
   the_square = n * n
