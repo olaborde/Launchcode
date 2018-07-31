@@ -47,3 +47,18 @@ def say_appointment(name, app_time):
 
 
 print(say_appointment("joe", 7))
+
+
+# global vs local scope
+
+
+item = "I love "
+
+
+def test():
+  print(item)
+
+  item = 'I am the boss'
+  print(item)
+
+test()
