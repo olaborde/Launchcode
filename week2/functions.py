@@ -62,3 +62,22 @@ def test():
   print(item)
 
 test()
+
+
+a = 10
+b = 3
+
+print( a % b)
+
+
+def password_checker( password ):
+  stored_pass = "lougarouvole"
+
+  if password == stored_pass:
+    print("correct")
+  else:
+    print("wrong") 
+
+
+guessed_password = input("Guess the password:")     
+password_checker(guessed_password)
