@@ -38,3 +38,14 @@ for group in g_of_names:
 
 print('THe largest name in your list is', name, "it has ", num_of_letters)
 
+
+def divisible_by_eleven(start_num, end_num):
+  for num in range(start_num, end_num):
+    if num % 11 == 0:
+      print('Found it:', num)
+      break #found the first one
+    print('.')  
+
+divisible_by_eleven(1935, 2018)   
+
+
