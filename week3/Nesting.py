@@ -19,3 +19,4 @@ group_of_names =[
 for names in group_of_names:
   for name in names:
     print(name)
+print(group_of_names[1][1])    
