@@ -66,3 +66,13 @@ print(person_2['attributes']['hair_color'])
 person_2['likes'] = ['walks on the beach', ' running', 'weight lifting']
 print(person_2.get('likes', 'no likes found') )
 
+
+# for n in person_2:
+#   print( person_2[n])
+
+# for n in person_2:
+#   print( person_2[n])
+
+
+for k, v in person_2.items():
+	print(k,v)
