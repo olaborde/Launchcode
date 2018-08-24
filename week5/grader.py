@@ -1,16 +1,78 @@
-def course_grader(test_scores):
-    
-  sorted_grades = sorted(test_scores)
-  if sorted_grades[0] < 50:
-    return 'fail'
-  if sum( test_scores) / len( test_scores) < 70:
-    return 'fail'
-  return 'pass'  
+# Dictionaries
 
-print(course_grader([100,75,45]))  
+person_1 = {
+  'occupation' : 'Web Developer',
+  'name' : 'John Smith',
+  'gender' : 'male',
+  'age' : 65,
+  'books' : ['harry potter'],
 
-print(course_grader([100,70,85]))  
+  'attributes' : {
 
-print(course_grader([80,60,60]))
-print(course_grader([80,80,90,30,80])) 
-print(course_grader([70,70,70,70,70]))  
+  },
+
+  'hungry' : True
+
+}
+
+print(person_1)
+
+person_1['height'] = 8.5
+
+print(person_1)
+
+class_1 ={
+  'students' : 50,
+  'Instructor' : 10
+}
+
+
+# Loops through
+
+# for a,b in dictio:
+# for key,value in dictio:
+
+# .keys() --- return the list of keys
+
+# .values() --- return list of values
+
+# .get(x,y) ----- Gets the value at key x, otherwise return y
+
+# del variable[key] --- to delete
+
+person_2 = {
+  'occupation' : 'Web Developer',
+  'name' : 'John Smith',
+  'gender' : 'male',
+  'age' : 65,
+  'books' : ['harry potter'],
+
+  'attributes' : {
+    'height' : 4.5,
+    'weight' : 180,
+    'hair_color' : 'Brown'
+
+  },
+
+  'hungry' : True
+
+}
+
+
+print(person_2.get('likes', 'no likes found') )
+
+print(person_2['attributes']['hair_color'])
+
+person_2['likes'] = ['walks on the beach', ' running', 'weight lifting']
+print(person_2.get('likes', 'no likes found') )
+
+
+# for n in person_2:
+#   print( person_2[n])
+
+# for n in person_2:
+#   print( person_2[n])
+
+
+for k, v in person_2.items():
+	print(k,v)
