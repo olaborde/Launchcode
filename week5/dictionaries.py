@@ -27,18 +27,18 @@ class_1 ={
 }
 
 
-# Loops through
+Loops through
 
-# for a,b in dictio:
-# for key,value in dictio:
+for a,b in dictio:
+for key,value in dictio:
 
-# .keys() --- return the list of keys
+.keys() --- return the list of keys
 
-# .values() --- return list of values
+.values() --- return list of values
 
-# .get(x,y) ----- Gets the value at key x, otherwise return y
+.get(x,y) ----- Gets the value at key x, otherwise return y
 
-# del variable[key] --- to delete
+del variable[key] --- to delete
 
 person_2 = {
   'occupation' : 'Web Developer',
