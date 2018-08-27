@@ -19,8 +19,11 @@ class Car:
     print("Vroooom!")
 
   def move(self, meters):
-    self.position += meters
-    print("The "+ self.brand+ " moved "+ str(meters)+ " meters")
+    if self.engineOn:
+      self.position += meters
+      print("The "+ self.brand+ " moved "+ str(meters)+ " meters")
+    else:
+      print("The car is off, can not be moved")  
 
 
 
@@ -29,23 +32,27 @@ myFirstCar = Car('Lexus', "Black", 4)
 # print(myFirstCar.details())
 
 
-print(myFirstCar)
+# print(myFirstCar)
+# print(myFirstCar.engineOn)
+# myFirstCar.startEngine()
+# print(myFirstCar.engineOn)
+
+# print(myFirstCar.move( 20 ))
+
+# print(myFirstCar.position)
+
+# print(myFirstCar.move( 50 ))
+
+# print(myFirstCar.position)
+
+# print(myFirstCar.move( -10 ))
+
+# print(myFirstCar.position)
+
+# print(myFirstCar.move( 30 ))
+
+# print(myFirstCar.position)
+
+
 print(myFirstCar.engineOn)
-myFirstCar.startEngine()
-print(myFirstCar.engineOn)
-
-print(myFirstCar.move( 20 ))
-
-print(myFirstCar.position)
-
-print(myFirstCar.move( 50 ))
-
-print(myFirstCar.position)
-
-print(myFirstCar.move( -10 ))
-
-print(myFirstCar.position)
-
 print(myFirstCar.move( 30 ))
-
-print(myFirstCar.position)
