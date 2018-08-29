@@ -1,5 +1,5 @@
 class Team:
-  def __init__(self, player1, player2, player3, player4):
+      def __init__(self, player1, player2, player3, player4):
     self.player1 = player1
     self.player2 = player2
     self.player3 = player3
@@ -15,6 +15,10 @@ class Team:
 
   def __len__(self):
     return len(self.getPlayers())  
+
+
+  def __contains__(self, player):
+    return player in self.getPlayers()  
     
     
     
@@ -25,4 +29,6 @@ print(myTeam)
 # print( myTeam.getPlayers())
 
 print(len(myTeam))
+
+print( "Bob" in myTeam)
 
