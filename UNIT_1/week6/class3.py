@@ -15,10 +15,17 @@ class Team:
 
   def __len__(self):
     return len(self.getPlayers())  
+    
 
 
   def __contains__(self, player):
-    return player in self.getPlayers()  
+    # return player in self.getPlayers()  
+
+    if player in self.getPlayers():
+      print('Yes')
+      
+    else:
+      print("No")  
     
     
     
