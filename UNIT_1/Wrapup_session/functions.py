@@ -6,12 +6,12 @@
 # function that removes - and replace with a .
 # .replace( "-", ".")
 
-def generateUrlSlug( titleOfBlog ):
+def generateUrlSlug( titleOfBlog, separator ):
     print( titleOfBlog)
     # remove spaces at the beginning and end of my input
     strippedTitle = titleOfBlog.strip()
     # replace all spaces inside with dashes
-    dashedTitle = strippedTitle.replace(" ", "-")
+    dashedTitle = strippedTitle.replace(" ", separator)
     # make everything character lower case
     lowerCaseTitle = dashedTitle.lower()
     # return the result
@@ -25,7 +25,7 @@ def main():
     theTitle = input(" What is the tite of your blog: ")
 
     print( "Here is the url of the blog:" )
-    urlReady = generateUrlSlug( theTitle )
+    urlReady = generateUrlSlug( theTitle, "*" )
     print( urlReady)
 
 if __name__ == "__main__":
