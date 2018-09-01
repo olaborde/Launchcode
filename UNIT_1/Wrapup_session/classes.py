@@ -5,16 +5,16 @@
 
 class Person:
     
-    def __init__(self, ):
+    def __init__(self, name, gender, age, height, weight, race, eyecolor, haircolor):
         # required - unique
-        self.name
-        self.gender
-        self.age
-        self.height
-        self.weight
-        self.race
-        self.eyecolor
-        self.haircolor
+        self.name = name
+        self.gender = gender
+        self.age = age
+        self.height = height
+        self.weight = weight
+        self.race = race
+        self.eyecolor = eyecolor
+        self.haircolor = haircolor
 
         # required
         self.alive = True
