@@ -6,5 +6,11 @@ myClothes = ['Denin Jackets', ' blue trousers', 'green suits']
 
 # dictionary              -> Mapping Collection 
 
+myRefrigeratorData = {
+    1:  "Banana",
+    2: 'Mango',
+    0: 'Wild Berries'
+}
 
-print( myClothes[0])
+print( myRefrigeratorData[0])
+print("hh", myClothes[0])
