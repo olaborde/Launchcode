@@ -4,20 +4,31 @@ def list_my_fruits( myItems ):
 
     counter = 1
 
-    for items in myFruitsLists:
+    for items in myItems:
         print ( counter, items)
         counter += 1
 
 
-myFruitsLists = [ 'Banana', 'Mangoes', 'Strawberries' ] 
+myRefrigirator = [ 'Banana', 'Mangoes', 'Strawberries' ] 
 
 
-list_my_fruits( myFruitsLists )
+list_my_fruits( myRefrigirator )
+
+userInput = ''
+while userInput.lower() != 'done':
+    userInput = input("What fruit would you like to add: ")
+    if userInput.lower() != 'done':
+        print( "Adding {} to my refrigirator".format(userInput))
+        myRefrigirator.append( userInput )
+list_my_fruits( myRefrigirator )        
 
 
 
-# add more items to the lists
 
-myFruitsLists.append( ' Coconuts ')  
-myFruitsLists.append( ' Kiwi ')     
-list_my_fruits( myFruitsLists )
+
+# ask user to add fruit
+# take the user input
+#Add to list
+# ask again
+# if user typles "Done"
+# List all the fruits they have
