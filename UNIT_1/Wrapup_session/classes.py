@@ -31,13 +31,32 @@ class Person:
     def say(self, sentence):
         return self.name + "Says" + sentence 
 
+    def greet(self, human):
+        return "Hello " + human.name + " My name is " + self.name  
+
 
     def eat(self):
-        return self.hungry = False
+        print("jjj")
+        return self.hungry
+        # return self.hungry = False
 
     def sleep(self):
         self.tired = False
         self.hungry = True
 
+    #  mutator function
     def run(self):
-        self.tired = True       
+        self.tired = True
+
+    def __repr__(self):
+        return "Hi, I am {}, I am {} year old {} {}, I'm {} ft tall".format(self.name, self.age, self.race, self.gender, self.height)      
+
+
+person_1 = Person("Sally", "Female", 30, 4.2, 100, "ASian", "Green", "Brown")    
+
+person_2 = Person("Pete", "Male", 30,100, "Black", "Green", "Brown")   
+person_3 = Person("Bryan", "Female", 25, 100, "Italian", "Blue", "Red")  
+
+print( person_1)
+
+print( person_1.greet(person_2))
