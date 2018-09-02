@@ -29,7 +29,9 @@ class BoredChatbot(Chatbot):
             
             return  'zzz... Oh excuse me, I dozed off reading your essay.'
         else:
-            return sally.response(human_message)
+            #return response(the_message)
+        	return "It is very interesting that you say: '" + the_message + "'"
+
 
 
         
