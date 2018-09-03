@@ -16,9 +16,6 @@ class Chatbot:
 # TODO define a class called BoredChatbot
 class BoredChatbot(Chatbot):
     
-    
-    
-    
     def tooLong(self, the_message):
         if len( the_message) > 20:
             return  'zzz... Oh excuse me, I dozed off reading your essay.'
