@@ -20,16 +20,9 @@ class BoredChatbot(Chatbot):
     
     
     def tooLong(self, the_message):
-        #human_message = input(sally.greeting())
-
-     
-
         if len( the_message) > 20:
-            
-            
             return  'zzz... Oh excuse me, I dozed off reading your essay.'
         else:
-            #return response(the_message)
         	return "It is very interesting that you say: '" + the_message + "'"
 
 
