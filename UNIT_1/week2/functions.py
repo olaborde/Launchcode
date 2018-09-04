@@ -91,3 +91,17 @@ def get_boundaries(target, margin):
 low, high = get_boundaries(100, 20)
 
 print('Low limit: '+ str(low) +', high limit: '+str(high))
+
+
+# scope
+
+time = "3pm"
+mood = "good"
+
+def report():
+  print("The current time is " + time)
+  print("The mood is " + mood)
+
+print("End of report")
+
+report()
