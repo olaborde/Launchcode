@@ -1,0 +1,19 @@
+body {
+        background-color:red;
+        color: green;
+      }
+      h1 {
+        color: #fff;
+      }
+
+      span.introduction {
+        color: yellow;
+      }
+
+      .other_span {
+        color: blue;
+      }
+
+      .huge_text{
+        font-size: 50px;
+      }
