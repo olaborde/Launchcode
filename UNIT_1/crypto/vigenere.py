@@ -31,13 +31,6 @@ def encrypt(text, key):
   return final_text   
 
 
-
-
-
-
-
-
-
 def main():
     itext = input("Please, type a message:")                   
     ikey = input("Please, enter an encryption key:")         
