@@ -17,3 +17,20 @@ body {
       .huge_text{
         font-size: 50px;
       }
+
+      .box {
+        height: 300px;
+      }
+
+
+      .first_box {
+        margin: 40px 10px;
+        padding-top: 10px;
+        background-color: yellow;
+        width: 70%;
+      }
+
+      .second_box {
+        background-color: green;
+        width: 100%;
+      }
