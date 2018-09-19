@@ -7,13 +7,20 @@ body {
     font-size: 95%;
 }
 img {
-    height: 400px;
+    height: 450px;
     width: 100%;
 }
 
 h1 {
     text-align: center;
 }
+a {
+    text-decoration:none
+}
+/* #header {
+     position: fixed; 
+
+} */
 
 /* main section */
 .main {
