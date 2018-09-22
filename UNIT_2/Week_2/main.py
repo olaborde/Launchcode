@@ -76,3 +76,19 @@ print(max_num(-5, -10, -10))
 # should print -5
 print(max_num(2, 3, 3))
 # should print "It's a tie!"
+
+
+
+# Write your over_budget function here:
+def over_budget(budget, food_bill, electricity_bill, internet_bill, rent):
+  bill_sum =  food_bill + electricity_bill + internet_bill +  rent
+  if budget < bill_sum:
+    return True
+  else:
+    return False
+
+# Uncomment these function calls to test your over_budget function:
+print(over_budget(100, 20, 30, 10, 40))
+# should print False
+print(over_budget(80, 20, 30, 10, 30))
+# should print True
