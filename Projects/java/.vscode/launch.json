@@ -2,6 +2,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Droid",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Droid",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Dog",
             "request": "launch",
             "cwd": "${workspaceFolder}",
